@@ -44,7 +44,7 @@ import java.util.Map;
  * v 0.1 2017年06月20日 3:24 PM tengfei.fangtf Exp $
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath*:META-INF/spring/jarslink.xml"})
+@ContextConfiguration(locations = {"classpath*:jarslink.xml"})
 public class Tester {
 
     @Autowired

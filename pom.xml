@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.alipay.jarslink</groupId>
-    <artifactId>jarslink-api</artifactId>
+    <groupId>com.alibaba.link</groupId>
+    <artifactId>link</artifactId>
     <version>0.5.1</version>
-    <name>Alipay JarsLink API</name>
-    <url>https://github.com/alibaba/jarslink</url>
+    <name>Alibaba Link API</name>
+    <url>https://github.com/feiqing/link</url>
     <packaging>jar</packaging>
-    <description>Alipay JarsLink API</description>
+    <description>Alibaba Link API</description>
 
     <properties>
         <slf4j.version>1.7.7</slf4j.version>
@@ -28,17 +28,17 @@
 
     <developers>
         <developer>
-            <name>jarslink</name>
-            <email>jarslink@aliyun.com</email>
-            <organization>alipay</organization>
-            <organizationUrl>www.alipay.com</organizationUrl>
+            <name>feiqing</name>
+            <email>jifang.zjf@alibab-inc.com</email>
+            <organization>alibaba</organization>
+            <organizationUrl>www.alibaba.com</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git@github.com:alibaba/jarslink.git</connection>
-        <developerConnection>scm:git@github.com:alibaba/jarslink.git</developerConnection>
-        <url>https://github.com/alibaba/jarslink</url>
+        <connection>scm:git@github.com:feiqing/link.gitt</connection>
+        <developerConnection>scm:git@github.com:feiqing/link.git</developerConnection>
+        <url>https://github.com/feiqing/link</url>
     </scm>
 
     <licenses>
@@ -67,17 +67,6 @@
             <artifactId>lombok</artifactId>
             <version>1.16.20</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.alipay.jarslink</groupId>
-            <artifactId>jarslink-module-demo</artifactId>
-            <version>1.0.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.alipay.jarslink</groupId>
-                    <artifactId>jarslink-api</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>commons-logging</groupId>
@@ -139,18 +128,18 @@
 
             <!-- GPG -->
             <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-gpg-plugin</artifactId>-->
-                <!--<version>1.5</version>-->
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<id>sign-artifacts</id>-->
-                        <!--<phase>verify</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>sign</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
-                <!--</executions>-->
+            <!--<groupId>org.apache.maven.plugins</groupId>-->
+            <!--<artifactId>maven-gpg-plugin</artifactId>-->
+            <!--<version>1.5</version>-->
+            <!--<executions>-->
+            <!--<execution>-->
+            <!--<id>sign-artifacts</id>-->
+            <!--<phase>verify</phase>-->
+            <!--<goals>-->
+            <!--<goal>sign</goal>-->
+            <!--</goals>-->
+            <!--</execution>-->
+            <!--</executions>-->
             <!--</plugin>-->
 
             <plugin>

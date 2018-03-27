@@ -1,6 +1,6 @@
 package com.alibaba.test;
 
-import com.alipay.jarslink.api.Action;
+import com.alibaba.link.Action;
 
 /**
  * @author jifang.zjf@alibaba-inc.com (FeiQing)

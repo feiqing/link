@@ -23,7 +23,7 @@ package com.alibaba.test;
  *
  */
 
-import com.alipay.jarslink.api.*;
+import com.alibaba.link.*;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
